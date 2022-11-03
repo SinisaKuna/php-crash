@@ -24,7 +24,7 @@ $mail->setFrom('beta.studio.fakturiranje@gmail.com', 'beta Studio');
 $mail->isHTML(true);
 // ovdje se upisuje attachment ako ga ima:
 // $mail->addAttachment('img/attachment.png');
-$mail->Body = "<h1>Dobro došli</h1></br><p>Poštovani, ... šđčžŠĐČŽ</p>";
+$mail->Body = "<h1>Dobro došli</h1></br><p>Poštovani, ... šđčćžŠĐČĆŽ</p>";
 $address = "sinisa.kuna@yahoo.com";
 $mail->AddAddress($address, "sinisa.kuna@yahoo.com");
 if ($mail->send()) {
